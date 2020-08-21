@@ -81,7 +81,9 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+# ---------------------------------------- [edit] ---------------------------------------- #
+ALLOWED_HOSTS = ['3.34.160.183']
+# ---------------------------------------------------------------------------------------- #
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
